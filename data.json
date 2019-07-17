@@ -13,5 +13,8 @@
         "meta": "You can set prefixes, suffixes and other meta in LuckPerms for players and groups.\nNote that LuckPerms does **not** manage chat. You need to use another plugin to show prefixes/suffixes in chat!\n<https://github.com/lucko/LuckPerms/wiki/Prefixes,-Suffixes-&-Meta>",
         "context": "You can set a permission or group on a per-world/per-server basis, through \"contexts\".\nMore info can be found here:\n<https://github.com/lucko/LuckPerms/wiki/Context>",
         "default": "LuckPerms provides a group that every player is added tp upon joining the server, called `default`.\nYou can use multiple methods to change the default group or change the name of it - to find out more please read this wiki page:\n<https://github.com/lucko/LuckPerms/wiki/Default-Groups>"
+    },
+    "faq_text": {
+        "rename": "To rename a group use `/lp group <group> rename <new name>`.\nTo also update all inheritances to the new group use Bulk editing"
     }
 }

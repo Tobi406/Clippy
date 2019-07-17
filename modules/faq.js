@@ -7,7 +7,7 @@ module.exports = function (client) {
         if (!msg.content.startsWith("!faq") || msg.author.bot) return;
         
         // Check if command is in the data file. If so, send it
-        const text = data.faq_text[msg.content.toLowerCase().substring(1)];
+        const text = data.faq_text[msg.content.toLowerCase().substring(2)];
         if (!text) {
             return;
         }
